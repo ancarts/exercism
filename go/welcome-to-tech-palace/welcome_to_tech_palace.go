@@ -13,5 +13,11 @@ func AddBorder(welcomeMsg string, numStarsPerLine int) string {
 
 // CleanupMessage cleans up an old marketing message.
 func CleanupMessage(oldMsg string) string {
-	return strings.Replace(oldMsg, oldMsg, strings.Trim(oldMsg,"* \n"),1)
+	// return strings.Replace(oldMsg, oldMsg, strings.Trim(oldMsg,"* \n"),1)
+
+	
+	return strings.TrimSpace(strings.Replace(oldMsg, "*", "", -1))
+
+
+	//return  strings.Trim(oldMsg,"* \n")
 }
