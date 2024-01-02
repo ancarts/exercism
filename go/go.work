@@ -6,6 +6,7 @@ use (
 	./hello-world
 	./lasagna
 	./party-robot
+	./vehicle-purchase
 	./weather-forecast
 	./welcome-to-tech-palace
 )
