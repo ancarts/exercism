@@ -6,6 +6,7 @@ use (
 	./cars-assemble
 	./hello-world
 	./lasagna
+	./need-for-speed
 	./party-robot
 	./vehicle-purchase
 	./weather-forecast
