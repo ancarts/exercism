@@ -8,6 +8,7 @@ use (
 	./cars-assemble
 	./hello-world
 	./lasagna
+	./lasagna-master
 	./need-for-speed
 	./party-robot
 	./vehicle-purchase
