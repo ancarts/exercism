@@ -10,6 +10,7 @@ use (
 	./cars-assemble
 	./chessboard
 	./election-day
+	./elons-toys
 	./gross-store
 	./hello-world
 	./interest-is-interesting
