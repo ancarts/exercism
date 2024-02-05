@@ -22,6 +22,7 @@ use (
 	./need-for-speed
 	./parsing-log-files
 	./party-robot
+	./sorting-room
 	./vehicle-purchase
 	./weather-forecast
 	./welcome-to-tech-palace
