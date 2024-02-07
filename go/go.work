@@ -23,6 +23,7 @@ use (
 	./parsing-log-files
 	./party-robot
 	./sorting-room
+	./the-farm
 	./vehicle-purchase
 	./weather-forecast
 	./welcome-to-tech-palace
