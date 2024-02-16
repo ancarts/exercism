@@ -13,6 +13,7 @@ use (
 	./chessboard
 	./election-day
 	./elons-toys
+	./expenses
 	./gross-store
 	./hello-world
 	./interest-is-interesting
