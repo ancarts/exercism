@@ -18,7 +18,7 @@ type DaysPeriod struct {
 // Filter returns the records for which the predicate function returns true.
 func Filter(in []Record, predicate func(Record) bool) []Record {
 
-	filteredRecords := make([]Record, 0)
+	filteredRecords :=[]Record{}
 	for _, v := range in {
 		if predicate(v) {
 			filteredRecords = append(filteredRecords, v)

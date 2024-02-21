@@ -13,9 +13,9 @@ func Application(log string) string {
 		'\u2600':     "weather",
 	}
 	for _, v := range log {
-		_, ok := runeToApp[v]
+		app, ok := runeToApp[v]
 		if ok {
-			return runeToApp[v]
+			return app
 		}
 	}
 	return "default"

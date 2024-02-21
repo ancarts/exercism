@@ -18,7 +18,7 @@ func VoteCount(counter *int) int {
 
 // IncrementVoteCount increments the value in a vote counter.
 func IncrementVoteCount(counter *int, increment int) {
-	*counter = *counter + increment
+	*counter+= increment
 	}
 
 // NewElectionResult creates a new election result.
@@ -29,11 +29,11 @@ func NewElectionResult(candidateName string, votes int) *ElectionResult {
 
 // DisplayResult creates a message with the result to be displayed.
 func DisplayResult(result *ElectionResult) string {
-	messageToDisplay := result.Name + " (" + fmt.Sprint(result.Votes) + ")"
+	messageToDisplay := fmt.Sprintf("%s (%d)", result.Name, result.Votes)
 	return messageToDisplay
 }
 
 // DecrementVotesOfCandidate decrements by one the vote count of a candidate in a map.
 func DecrementVotesOfCandidate(results map[string]int, candidate string) {
-	results[candidate] = results[candidate] - 1
+	results[candidate] -= 1
 }
