@@ -15,6 +15,7 @@ use (
 	./election-day
 	./elons-toys
 	./expenses
+	./gigasecond
 	./gross-store
 	./hello-world
 	./interest-is-interesting
