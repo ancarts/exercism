@@ -17,6 +17,7 @@ use (
 	./expenses
 	./gigasecond
 	./gross-store
+	./hamming
 	./hello-world
 	./interest-is-interesting
 	// ./lasagna
