@@ -28,6 +28,7 @@ use (
 	./parsing-log-files
 	./party-robot
 	./raindrops
+	./scrabble-score
 	./sorting-room
 	./the-farm
 	./two-fer
