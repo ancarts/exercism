@@ -22,6 +22,7 @@ use (
 	./interest-is-interesting
 	// ./lasagna
 	./lasagna-master
+	./leap
 	./logs-logs-logs
 	./meteorology
 	./need-for-speed
