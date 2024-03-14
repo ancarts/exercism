@@ -26,6 +26,7 @@ use (
 	./lasagna-master
 	./leap
 	./logs-logs-logs
+	./luhn
 	./meteorology
 	./need-for-speed
 	./parsing-log-files
