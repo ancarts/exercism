@@ -3,7 +3,7 @@ package resistorcolor
 // Colors returns the list of all colors.
 func Colors() []string {
 	
-	colors:= []string("Black","Brown","Red","Orange","Yellow","Green","Blue","Violet","Grey","White")
+	colors:= []string {"Black","Brown","Red","Orange","Yellow","Green","Blue","Violet","Grey","White"}
 return colors
 }
 
